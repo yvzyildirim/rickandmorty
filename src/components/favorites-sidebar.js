@@ -16,8 +16,6 @@ export const FavoriteSidebar = () => {
     dispatch(removeFavorite(id))
   }
 
-  console.log(favorites)
-
   return (
     sidebar.isSidebarOpen && (
       <div className="w-screen h-screen fixed top-0 right-0 bg-black bg-opacity-50 z-50 flex justify-end">

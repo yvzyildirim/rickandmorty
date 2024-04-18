@@ -11,7 +11,6 @@ export const Pagination = ({
   const renderPageButtons = () => {
     const pageButtons = []
     for (let i = 1; i <= pages; i++) {
-      // Her sayfa düğmesi için bir düğme oluştur
       pageButtons.push(
         <button
           key={i}

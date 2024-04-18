@@ -69,7 +69,6 @@ export const Characters = () => {
 
           let filteredCharacters = data
 
-          // Eğer status filtresi varsa, karakterleri filtrele
           if (status) {
             filteredCharacters = data.filter(
               (character) => character.status === status,
